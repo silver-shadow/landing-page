@@ -1,0 +1,157 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+* {
+    font-family:'Roboto', sans-serif;
+}
+
+.header , .hero {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero {
+    justify-content: space-around;
+    padding: 90px 150px;
+    gap: 60px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.left > p {
+    margin-top: 0px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left > button {
+    margin-top: 5px; 
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 5px 20px;
+    border: none;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    padding: 0px 150px;
+    text-align: center;
+} 
+
+h3 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.q {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 1px;
+    color: #1F2937;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.auth {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1F2937;
+    align-self: flex-end;
+    padding-right: 150px;
+    margin-bottom: 30px;
+}
+
+.promo {
+    padding: 70px 150px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.box > button {
+    margin-top: 5px; 
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 5px 20px;
+    border: solid #F9FAF8;
+}
+
+.left2 > p {
+    font-size: 14px;
+    margin-top: 0px;
+    color:#E5E7EB;
+}
+
+h4 {
+    margin-bottom: 10px;
+    color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 12px;
+    padding: 10px 0px;
+}
